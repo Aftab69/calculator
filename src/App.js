@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="main_container">
+        <div className="display_container">
+
+        </div>
+        <div className="flex_container">
+              <div class="flex_item">R</div>
+              <div class="flex_item">%</div>
+              <div class="flex_item">CE</div>
+              <div class="flex_item">÷</div>
+              <div class="flex_item">7</div>
+              <div class="flex_item">8</div>
+              <div class="flex_item">9</div>
+              <div class="flex_item">x</div>
+              <div class="flex_item">4</div>
+              <div class="flex_item">5</div>
+              <div class="flex_item">6</div>
+              <div class="flex_item">-</div>
+              <div class="flex_item">1</div>
+              <div class="flex_item">2</div>
+              <div class="flex_item">3</div>
+              <div class="flex_item">+</div>
+              <div class="flex_item">00</div>
+              <div class="flex_item">0</div>
+              <div class="flex_item">.</div>
+              <div class="flex_item">=</div>
+        </div>
+      </div>
+    </>
   );
 }
 
