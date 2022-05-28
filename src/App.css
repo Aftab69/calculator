@@ -17,6 +17,7 @@
     align-items: center;
     font-size: xx-large;
     padding: 2%;
+    overflow: hidden;
 }
 .flex_container{
     box-sizing: border-box;
