@@ -12,6 +12,11 @@
     border: 6px solid rgb(231, 28, 28);
     width: 25vw;
     height: 15vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: xx-large;
+    padding: 2%;
 }
 .flex_container{
     box-sizing: border-box;
